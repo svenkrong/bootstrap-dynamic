@@ -24,7 +24,7 @@
     "enquire": "2.1.1",
     "underscore": "1.6.0",
     "ejs": "1.0",
-    "dynamic": "file:///Users/Sven/Sites/web/dynamic-bootstrap/.git/"
+    "dynamic": "https://github.com/svenkrong/bootstrap-dynamic.git"
   },
   "license": "MIT",
   "main": "dynamic.js",
