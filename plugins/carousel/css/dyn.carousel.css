@@ -1,0 +1,848 @@
+/*
+
+ Dynamic Carousel - dyn.carousel.css -  - dynamic responsive content delivery
+ file: js/dynamic/dynamic.js
+ version: 0.0.1
+ (c) 2014 Sven Krong ~ SKP Studios / http://www.skpstudios.com
+
+ Provided under the Apache 2.0 License: http://www.apache.org/licenses/LICENSE-2.0
+ Commercial use requires attribution.
+
+ */
+/* ------------------ + Dynamic Responsive CSS Media Queries ------------------ */
+
+
+/*Archoid*/
+
+@media (min-width: 20em) {
+
+    .carousel .initiative {
+        margin-bottom: -300px;
+    }
+
+
+    .shadow-slide {
+        position: relative;
+        width: 300px;
+        margin: -389px auto;
+        padding-bottom: 341px;
+    }
+
+    .initiative h1 {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .carousel {
+        width: 300px;
+        margin-top: 50px;
+        margin-bottom: -59px;
+        /*margin-left: 1px;*/
+    }
+
+    .carousel-inner {
+        width: 300px;
+    }
+
+    .carousel .container {
+        position: relative;
+        z-index: 9;
+    }
+
+    .carousel-control {
+        top: 9.2%;
+        z-index: 10;
+
+        left: 8px;
+        width: 40px;
+        height: 40px;
+        margin-top: -20px;
+        font-size: 60px;
+        font-weight: 100;
+        line-height: 30px;
+    }
+
+    .carousel-control.right {
+        right: 8px;
+        left: auto;
+    }
+
+    .carousel .item {
+        height: 500px;
+    }
+
+    .carousel img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .carousel-caption {
+        background-color: transparent;
+        position: static;
+        max-width: 780px;
+        padding: 0 20px;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    .carousel-caption h1 {
+        font-size: 18px;
+        margin: 0;
+        line-height: 1.25;
+        color: #fff;
+        text-shadow: 0 3px 3px rgba(0,0,0,.8);
+    }
+
+    .carousel-caption .lead {
+        margin: 0;
+        line-height: 1.25;
+        color: #fff;
+        text-shadow: 0 3px 3px rgba(0,0,0,.8);
+    }
+    .carousel-caption .btn {
+        margin-top: 10px;
+    }
+
+}
+
+
+/*Lo Win Phone*/
+
+@media (min-width: 30em) and (max-height: 50em) {
+
+
+    .shadow-slide {
+        position: relative;
+        width: 440px;
+        margin: -332px auto;
+        padding-bottom: 260px;
+    }
+
+    .carousel .initiative {
+        margin-bottom: -300px;
+    }
+
+    .initiative h1 {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .carousel {
+        width: 440px;
+        margin-top: 50px;
+        margin-bottom: 1px;
+    }
+
+    .carousel-inner {
+        width: 440px;
+    }
+
+    .carousel .container {
+        position: relative;
+        z-index: 9;
+    }
+
+    .carousel-control {
+        top: 17.3%;
+        z-index: 10;
+
+        left: 8px;
+        width: 40px;
+        height: 40px;
+        margin-top: -20px;
+        font-size: 60px;
+        font-weight: 100;
+        line-height: 30px;
+    }
+
+    .carousel-control.right {
+        right: 8px;
+        left: auto;
+    }
+
+    .carousel .item {
+        height: 500px;
+    }
+
+    .carousel img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .carousel-caption {
+        background-color: transparent;
+        position: static;
+        max-width: 780px;
+        padding: 0 20px;
+        margin-top: 8px;
+        margin-left: -6px;
+    }
+    .carousel-caption h1 {
+        font-size: 18px;
+        margin: 0;
+        line-height: 1.25;
+        color: #fff;
+        text-shadow: 0 3px 3px rgba(0,0,0,.8);
+    }
+
+    .carousel-caption .lead {
+        margin: 0;
+        line-height: 1.25;
+        color: #fff;
+        text-shadow: 0 3px 3px rgba(0,0,0,.8);
+    }
+    .carousel-caption .btn {
+        margin-top: 10px;
+    }
+}
+
+/*Small Tablet*/
+
+@media (min-width: 37.5em) {
+
+    .shadow-slide {
+        position: relative;
+        width: 600px;
+        margin: -266px auto;
+        padding-bottom: 202px;
+    }
+
+    .carousel .initiative {
+        margin-bottom: -208px;
+    }
+
+    .initiative h1 {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .carousel {
+        width: 600px;
+        margin-top: 50px;
+        margin-bottom: 1px;
+    }
+
+    .carousel-inner {
+        width: 600px;
+    }
+
+    .carousel .container {
+        position: relative;
+        z-index: 9;
+    }
+
+    .carousel-control {
+        top: 27.3%;
+        z-index: 10;
+
+        left: 8px;
+        width: 40px;
+        height: 40px;
+        margin-top: -20px;
+        font-size: 60px;
+        font-weight: 100;
+        line-height: 30px;
+    }
+
+    .carousel-control.right {
+        right: 8px;
+        left: auto;
+    }
+
+    .carousel .item {
+        height: 500px;
+    }
+
+    .carousel img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .carousel-caption {
+        background-color: transparent;
+        position: static;
+        max-width: 780px;
+        padding: 0 20px;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+        margin: 0;
+        line-height: 1.25;
+        color: #fff;
+        text-shadow: 0 3px 3px rgba(0,0,0,.8);
+    }
+    .carousel-caption .btn {
+        margin-top: 10px;
+    }
+}
+
+
+/*iPhone*/
+
+@media (min-width: 40em) and (max-height: 60em) {
+
+    .shadow-slide {
+        position: relative;
+        width: 600px;
+        margin: -266px auto;
+        padding-bottom: 202px;
+    }
+
+    .carousel .initiative {
+        margin-bottom: -208px;
+    }
+
+    .initiative h1 {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .carousel {
+        width: 600px;
+        margin-top: 50px;
+        margin-bottom: 1px;
+    }
+
+    .carousel-inner {
+        width: 600px;
+    }
+
+    .carousel .container {
+        position: relative;
+        z-index: 9;
+    }
+
+    .carousel-control {
+        top: 27.3%;
+        z-index: 10;
+
+        left: 8px;
+        width: 40px;
+        height: 40px;
+        margin-top: -20px;
+        font-size: 60px;
+        font-weight: 100;
+        line-height: 30px;
+    }
+
+    .carousel-control.right {
+        right: 8px;
+        left: auto;
+    }
+
+    .carousel .item {
+        height: 500px;
+    }
+
+    .carousel img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .carousel-caption {
+        background-color: transparent;
+        position: static;
+        max-width: 780px;
+        padding: 0 20px;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+        margin: 0;
+        line-height: 1.25;
+        color: #fff;
+        text-shadow: 0 3px 3px rgba(0,0,0,.8);
+    }
+    .carousel-caption .btn {
+        margin-top: 10px;
+    }
+
+}
+
+
+/*Hi Win Phone*/
+
+@media (min-width: 48em) and (max-width: 80em) {
+
+    .shadow-slide {
+        position: relative;
+        width: 700px;
+        margin: -257px auto;
+        padding-bottom: 220px;
+    }
+
+    .carousel .initiative {
+        margin-bottom: -208px;
+    }
+
+    .initiative h1 {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .carousel {
+        width: 700px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .carousel-inner {
+        width: 700px;
+    }
+
+    .carousel .container {
+        position: relative;
+        z-index: 9;
+    }
+
+    .carousel-control {
+        top: 27.3%;
+        z-index: 10;
+
+        left: 8px;
+        width: 40px;
+        height: 40px;
+        margin-top: -20px;
+        font-size: 60px;
+        font-weight: 100;
+        line-height: 30px;
+    }
+
+    .carousel-control.right {
+        right: 8px;
+        left: auto;
+    }
+
+    .carousel .item {
+        height: 500px;
+    }
+
+    .carousel img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .carousel-caption {
+        background-color: transparent;
+        position: static;
+        max-width: 780px;
+        padding: 0 20px;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+        margin: 0;
+        line-height: 1.25;
+        color: #fff;
+        text-shadow: 0 3px 3px rgba(0,0,0,.8);
+    }
+    .carousel-caption .btn {
+        margin-top: 10px;
+    }
+
+}
+
+
+/*iPad*/
+
+@media (min-width: 64em) {
+
+    .shadow-slide {
+        position: relative;
+        width: 960px;
+        margin: -148px auto;
+        padding-bottom: 100px;
+    }
+
+    .carousel .initiative {
+        margin-bottom: -100px;
+    }
+
+    .initiative h1 {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .carousel {
+        width: 960px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        /*margin-left: 26px;*/
+    }
+
+    .carousel-inner {
+        width: 960px;
+    }
+
+    .carousel .container {
+        position: relative;
+        z-index: 9;
+    }
+
+    .carousel-control {
+        top: 40%;
+        z-index: 10;
+    }
+
+    .carousel-control.right {
+        right: 15px;
+        left: auto;
+    }
+
+    .carousel .item {
+        height: 500px;
+    }
+
+    .carousel img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .carousel-caption {
+        background-color: transparent;
+        position: static;
+        max-width: 780px;
+        padding: 0 20px;
+        margin-top: 40px;
+        /*margin-left: 40px;*/
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+        margin: 0;
+        line-height: 1.25;
+        color: #fff;
+        text-shadow: 0 3px 3px rgba(0,0,0,.8);
+    }
+    .carousel-caption .btn {
+        margin-top: 10px;
+    }
+
+}
+
+
+/*Small Desktop*/
+
+@media (min-width: 80em) and (max-height: 64em) {
+
+
+    .carousel .initiative {
+        margin-bottom: -100px;
+    }
+
+    .shadow-slide {
+        position: relative;
+        width: 1240px;
+        margin: -146px auto;
+        padding-bottom: 96px;
+    }
+
+    .initiative h1 {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .carousel {
+        width: 1240px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        /*margin-left: 14px;*/
+    }
+
+    .carousel-inner {
+        width: 1240px;
+    }
+
+    .carousel .container {
+        position: relative;
+        z-index: 9;
+    }
+
+    .carousel-control {
+        top: 40%;
+        z-index: 10;
+    }
+
+    .carousel-control.right {
+        right: 15px;
+        left: auto;
+    }
+
+    .carousel .item {
+        height: 612px;
+    }
+
+    .carousel img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .carousel-caption {
+        background-color: transparent;
+        position: static;
+        max-width: 780px;
+        padding: 0 20px;
+        margin-top: 40px;
+        margin-left: 52px;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+        margin: 0;
+        line-height: 1.25;
+        color: #fff;
+        text-shadow: 0 3px 3px rgba(0,0,0,.8);
+    }
+    .carousel-caption .btn {
+        margin-top: 10px;
+    }
+
+}
+
+/*Notebook*/
+
+@media (min-width: 80em) and (max-height: 50em) {
+
+    .carousel .initiative {
+        margin-bottom: -100px;
+    }
+
+    .shadow-slide {
+        position: relative;
+        width: 1240px;
+        margin: -146px auto;
+        padding-bottom: 96px;
+    }
+
+    .initiative h1 {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .carousel {
+        width: 1240px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        /*margin-left: 14px;*/
+    }
+
+    .carousel-inner {
+        width: 1240px;
+    }
+
+    .carousel .container {
+        position: relative;
+        z-index: 9;
+    }
+
+    .carousel-control {
+        top: 40%;
+        z-index: 10;
+    }
+
+    .carousel-control.right {
+        right: 15px;
+        left: auto;
+    }
+
+    .carousel .item {
+        height: 612px;
+    }
+
+    .carousel img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .carousel-caption {
+        background-color: transparent;
+        position: static;
+        max-width: 780px;
+        padding: 0 20px;
+        margin-top: 40px;
+        margin-left: 52px;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+        margin: 0;
+        line-height: 1.25;
+        color: #fff;
+        text-shadow: 0 3px 3px rgba(0,0,0,.8);
+    }
+    .carousel-caption .btn {
+        margin-top: 10px;
+    }
+
+}
+
+
+/*Ultrabook-Tablet*/
+
+@media (min-width: 85em) and (max-height: 48em) {
+
+    .carousel .initiative {
+        margin-bottom: -100px;
+    }
+
+    .shadow-slide {
+        position: relative;
+        width: 1240px;
+        margin: -146px auto;
+        padding-bottom: 96px;
+    }
+
+    .initiative h1 {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .carousel {
+        width: 1240px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        /*margin-left: 60px;*/
+    }
+
+    .carousel-inner {
+        width: 1240px;
+    }
+
+    .carousel .container {
+        position: relative;
+        z-index: 9;
+    }
+
+    .carousel-control {
+        top: 40%;
+        z-index: 10;
+    }
+
+    .carousel-control.right {
+        right: 15px;
+        left: auto;
+    }
+
+    .carousel .item {
+        height: 612px;
+    }
+
+    .carousel img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .carousel-caption {
+        background-color: transparent;
+        position: static;
+        max-width: 780px;
+        padding: 0 20px;
+        margin-top: 40px;
+        margin-left: 52px;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+        margin: 0;
+        line-height: 1.25;
+        color: #fff;
+        text-shadow: 0 3px 3px rgba(0,0,0,.8);
+    }
+    .carousel-caption .btn {
+        margin-top: 10px;
+    }
+
+}
+
+
+/*Large Desktop*/
+
+@media (min-width: 105em) {
+
+
+    .carousel .initiative {
+        margin-bottom: -100px;
+    }
+
+    .shadow-slide {
+        position: relative;
+        width: 1240px;
+        margin: -146px auto;
+        padding-bottom: 96px;
+    }
+
+    .initiative h1 {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .carousel {
+        width: 1240px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        /*margin-left: 211px;*/
+    }
+
+    .carousel-inner {
+        width: 1240px;
+    }
+
+    .carousel .container {
+        position: relative;
+        z-index: 9;
+    }
+
+    .carousel-control {
+        top: 40%;
+        z-index: 10;
+    }
+
+    .carousel-control.right {
+        right: 15px;
+        left: auto;
+    }
+
+    .carousel .item {
+        height: 612px;
+    }
+
+    .carousel img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .carousel-caption {
+        background-color: transparent;
+        position: static;
+        max-width: 780px;
+        padding: 0 20px;
+        margin-top: 40px;
+        margin-left: 52px;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+        margin: 0;
+        line-height: 1.25;
+        color: #fff;
+        text-shadow: 0 3px 3px rgba(0,0,0,.8);
+    }
+    .carousel-caption .btn {
+        margin-top: 10px;
+    }
+
+}
+
+/* ------------------ - Dynamic Responsive CSS Media Queries ------------------ */
+
+
+
+

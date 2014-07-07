@@ -1,0 +1,42 @@
+{
+  "name": "dynamic-bootstrap",
+  "version": "0.0.1",
+  "homepage": "https://github.com/svenkrong/dynamic-bootstrap",
+  "authors": [
+    "Sven Krong <sven@skpstudios.com>"
+  ],
+  "description": "Dynamic Responsive Media Queries - DRMQ",
+  "keywords": [
+    "dynamic",
+    "javascript",
+    "dynamic",
+    "responive",
+    "content",
+    "delivery",
+    "media",
+    "query",
+    "bootstrap"
+  ],
+  "dependencies": {
+    "bootstrap": "3.2.0",
+    "jquery-mobile": "1.4.3",
+    "jquery-touch": "latest",
+    "enquire": "2.1.1",
+    "underscore": "1.6.0",
+    "ejs": "1.0",
+    "dynamic": "file:///Users/Sven/Sites/web/dynamic-bootstrap/.git/"
+  },
+  "license": "MIT",
+  "main": "dynamic.js",
+  "moduleType": [
+    "amd"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

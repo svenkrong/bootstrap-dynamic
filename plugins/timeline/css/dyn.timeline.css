@@ -1,0 +1,336 @@
+/*
+
+ Dynamic Timeline - dyn.timeline.css -  - dynamic responsive content delivery
+ file: js/dynamic/dynamic.js
+ version: 0.0.1
+ (c) 2014 Sven Krong ~ SKP Studios / http://www.skpstudios.com
+
+ Provided under the Apache 2.0 License: http://www.apache.org/licenses/LICENSE-2.0
+ Commercial use requires attribution.
+
+ */
+/* ----------------- + Timeline Dynamic Classes ----------------- */
+
+.time {
+    margin-top: 715px;
+}
+
+.time-desk {
+    margin-top: 648px;
+    padding-bottom: 66px;
+}
+
+.time-book {
+    margin-top: 538px;
+    padding-bottom: 2px;
+}
+
+.time-tablet {
+    margin-top: 542px;
+}
+
+.time-tablet-po {
+    margin-top: 530px;
+    padding-bottom: 16px;
+}
+
+.time-tablet-la {
+    margin-top: 542px;
+}
+
+.time-phone-la {
+    margin-top: 428px;
+    padding-bottom: 16px;
+}
+
+.time-phone {
+    margin-top: 428px;
+    padding-bottom: 16px;
+
+}
+
+.time-phone-po {
+    margin-top: 428px;
+    padding-bottom: 16px;
+
+}
+
+.time-phone-la {
+    margin-top: 428px;
+    padding-bottom: 16px;
+}
+
+.time-archoid-po {
+    margin-top: 49px;
+    padding-bottom: 16px;
+
+}
+
+.time-archoid-la {
+    margin-top: 40px;
+}
+
+
+.time-shadow {
+    position: absolute;
+    top: 647px;
+    left: -5px;
+}
+
+.time-shadow-desk {
+    position: absolute;
+    top: 647px;
+    left: -5px;
+}
+
+.time-shadow-book {
+    position: absolute;
+    top: 476px;
+    left: -5px;
+}
+
+.time-shadow-tablet {
+    position: absolute;
+    top: 477px;
+    left: -5px;
+}
+
+.time-shadow-tablet-po {
+    position: absolute;
+    top: 476px;
+    left: -5px;
+}
+
+.time-shadow-tablet-la {
+    position: absolute;
+    top: 477px;
+    left: -5px;
+}
+
+.time-shadow-phone-po {
+    position: absolute;
+    top: 377px;
+    left: -1px;
+}
+
+.time-shadow-phone-la {
+    position: absolute;
+    top: 647px;
+    left: -5px;
+}
+
+.time-shadow-archoid-po {
+    position: absolute;
+    top: 378px;
+    left: -1px;
+}
+
+.time-shadow-archoid-la {
+    position: absolute;
+    top: 647px;
+    left: -5px;
+}
+
+
+.time-bg {
+    /*
+    background-image:url(../img/american-arts/dance/timeline/);
+    background-repeat:repeat-x, repeat-y;
+    */
+}
+
+.time-content {
+    margin-top: 0;
+}
+
+.time-container {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-left: -625px;
+}
+
+.time-container-desk {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-left: -625px;
+}
+
+.time-container-book {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-left: -565px;
+}
+
+.time-container-tablet {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-left: -490px;
+}
+
+.time-container-tablet-po {
+    position: absolute;
+    top: 47px;
+    left: 50%;
+    margin-left: -350px;
+}
+
+.time-container-tablet-la {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-left: -494px;
+}
+
+.time-container-phone-po {
+    position: absolute;
+    top: 44px;
+    left: 50%;
+    margin-left: -304px;
+}
+
+.time-container-phone-la {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-left: -625px;
+}
+
+.time-container-archoid-po {
+    position: absolute;
+    top: 44px;
+    left: 50%;
+    margin-left: -304px;
+}
+
+.time-container-archoid-la {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-left: -625px;
+}
+
+
+.time-image-desk {
+    max-height: 500px;
+    width: auto;
+}
+
+.time-image-book {
+    max-height: 339px;
+    width: auto;
+}
+
+.time-image-tablet {
+    max-height: 339px;
+    width: auto;
+}
+
+.time-image-tablet-po {
+    max-height: 339px;
+    width: auto;
+}
+
+.time-image-tablet-la {
+    max-height: 339px;
+    width: auto;
+}
+
+.time-image-phone-po {
+    max-height: 210px;
+    width: auto;
+}
+
+.time-image-phone-la {
+    max-height: 339px;
+    width: auto;
+}
+
+.time-image-archoid-po {
+    max-height: 210px;
+    width: auto;
+}
+
+.time-image-archoid-la {
+    max-height: 339px;
+    width: auto;
+}
+
+/* ----------------- - Timeline Dynamic Classes ----------------- */
+
+
+/* ------------------ + Dynamic Responsive CSS Media Queries ------------------ */
+
+
+/*Archoid*/
+
+@media (min-width: 20em) {
+
+}
+
+
+/*Lo Win Phone*/
+
+@media (min-width: 30em) and (max-height: 50em) {
+
+}
+
+/*Small Tablet*/
+
+@media (min-width: 37.5em) {
+
+}
+
+
+/*iPhone*/
+
+@media (min-width: 40em) and (max-height: 60em) {
+
+}
+
+
+/*Hi Win Phone*/
+
+@media (min-width: 48em) and (max-width: 80em) {
+
+}
+
+
+/*iPad*/
+
+@media (min-width: 64em) {
+
+}
+
+
+/*Small Desktop*/
+
+@media (min-width: 80em) and (max-height: 64em) {
+
+}
+
+/*Notebook*/
+
+@media (min-width: 80em) and (max-height: 50em) {
+
+}
+
+
+/*Ultrabook-Tablet*/
+
+@media (min-width: 85em) and (max-height: 48em) {
+
+}
+
+
+/*Large Desktop*/
+
+@media (min-width: 105em) {
+
+
+}
+
+/* ------------------ - Dynamic Responsive CSS Media Queries ------------------ */

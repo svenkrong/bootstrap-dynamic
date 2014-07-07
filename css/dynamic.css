@@ -1,0 +1,79 @@
+/*
+
+ Dynamic - dynamic.css -  - dynamic responsive content delivery
+ file: js/dynamic/dynamic.js
+ version: 0.0.1
+ (c) 2014 Sven Krong ~ SKP Studios / http://www.skpstudios.com
+
+ Provided under the Apache 2.0 License: http://www.apache.org/licenses/LICENSE-2.0
+ Commercial use requires attribution.
+
+ */
+
+
+
+body {
+    background-image: url(../images/query/default.png);
+}
+
+/* ------------------ + Dynamic Responsive CSS Media Queries ------------------ */
+
+/*A change*/
+
+/* ----------------- + Dynamic Class Object ----------------- */
+
+/*
+    copy set and customize per class
+*/
+
+.dynamic {
+
+}
+
+.dynamic-desk {
+
+}
+
+.dynamic-book {
+
+}
+
+.dynamic-tablet {
+
+}
+
+.dynamic-tablet-po {
+
+}
+
+.dynamic-tablet-la {
+
+}
+
+.dynamic-phone {
+
+}
+
+.dynamic-phone-po {
+
+}
+
+.dynamic-phone-la {
+
+}
+
+.dynamic-archoid {
+
+}
+
+.dynamic-archoid-po {
+
+}
+
+.dynamic-archoid-la {
+
+}
+
+
+/* ----------------- - Dynamic Class Object ----------------- */
+
