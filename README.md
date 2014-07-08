@@ -21,6 +21,11 @@ Dependencies
 
 Architecture
 ------------
+* css
+* img
+* js
+* plugins
+* tools
 
 Plugins
 -------
