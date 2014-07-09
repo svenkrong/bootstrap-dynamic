@@ -1,3 +1,7 @@
+warning: this is version 0.0.0 - which means please don't use it yet
+
+WAIT UNTIL 0.0.1
+
 bootstrap-dynamic - dr.mq
 =========================
 
@@ -19,7 +23,7 @@ Dependencies
 * Enquire - javascript media event listening system
 * Dynamic - well, you knew that...
 
-Architecture
+Components
 ------------
 * css
 * img
@@ -31,8 +35,7 @@ Plugins
 -------
 
 * timeline - dmq for jquery.timeline.js
-* carousel - dmq for bootstrap carousel (currently only bootstrap version 2)
-* * slide & still
+* carousel - dmq for bootstrap carousel - slide & still (bootstrap 2 - 3 soon)
 * pretty - dmq for prettyPhoto pop=up window width - adjusted for view-ports
 
 

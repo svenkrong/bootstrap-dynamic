@@ -1,5 +1,5 @@
 {
-  "name": "dynamic-bootstrap",
+  "name": "bootstrap-dynamic",
   "version": "0.0.1",
   "homepage": "https://github.com/svenkrong/bootstrap-dynamic",
   "authors": [
@@ -23,7 +23,6 @@
     "jquery-touch": "latest",
     "enquire": "2.1.1",
     "underscore": "1.6.0",
-    "ejs": "1.0",
     "bootstrap-dynamic": "https://github.com/svenkrong/bootstrap-dynamic.git"
   },
   "license": "MIT",
