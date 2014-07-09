@@ -1,6 +1,8 @@
-warning: this is version 0.0.0 - which means please don't use it yet
+WARNING: This is version 0.0.0
+=========================
 
-WAIT UNTIL 0.0.1
+please don't use this until version 0.0.1 - thank-you
+-----------------------------------------------------
 
 bootstrap-dynamic - dr.mq
 =========================
