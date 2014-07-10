@@ -25,13 +25,30 @@ Dependencies
 * Enquire - javascript media event listening system
 * Dynamic - well, you knew that...
 
+
 Components
 ------------
+* app_components - for development
+    - these are not included in the bower.json file - provided for your convenience
+* ejs
+    - note: "bower install ejs" installs the node version - use this http://embeddedjs.com/getting_started.html
+* bower_components - for development
+    - cd your-project-directory/
+    - if a bower_components exists already, then transfer the dependencies to your bower.json file
+    - if there is no bower_components directory
+        - if there is no bower.json file - copy bootstrap-dynamic/bower.json to your project root directory
+        - if there is a bower.json file (and no bower_components directory), then you have not run "bower install" yet
+            - you should know if you needed to run "bower install". Open it up and see what dependencies are listed, if any.
+            - add them to the bootstrap-dynamic bower file or vice versa.
+    - after moving the bower.json file or dependencies into your bower.json file
+    - run "bower install" from your project directory
+    - this will install the full versions of all the components available thru bower.
 * css
 * img
 * js
 * plugins
 * tools
+* vendors
 
 Plugins
 -------
